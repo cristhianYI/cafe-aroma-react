@@ -1,1 +1,52 @@
-{"productos":[{"id":1,"nombre":"Café Americano","imagen":"https://www.shutterstock.com/image-photo/hot-americano-coffee-rich-aroma-600nw-2706827099.jpg","categoria":"Café","precio":7,"stock":12},{"id":2,"nombre":"Capuccino","imagen":"https://lamafia.es/wp-content/uploads/2019/07/capuccino-italiano.png","categoria":"Café","precio":10,"stock":6},{"id":3,"nombre":"Latte","imagen":"https://perfectdailygrind.com/es/wp-content/uploads/sites/2/2022/04/Article-Cover-Template.png","categoria":"Café","precio":11.5,"stock":9},{"id":4,"nombre":"Mocaccino","imagen":"https://caracasquierecafe.com/wp-content/uploads/2023/07/koushik-pal-C_vE8ZIHJ3Y-unsplash-1024x675.jpg","categoria":"Café","precio":12.9,"stock":8},{"id":5,"nombre":"Croissant","imagen":"https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/00202d886f936fc23dd995480d3c3ff8/Derivates/e5c24fe86c3edf303dd5403a6577a79e3952a501.jpg","categoria":"Postres","precio":6.5,"stock":15},{"id":6,"nombre":"Cheesecake","imagen":"https://blog.pucheromix.com/wp-content/uploads/2024/04/cheesecake-500x375.jpg","categoria":"Postres","precio":13.5,"stock":4}]}
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Café Americano",
+      "imagen": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80",
+      "categoria": "Café",
+      "precio": 7,
+      "stock": 12
+    },
+    {
+      "id": 2,
+      "nombre": "Capuccino",
+      "imagen": "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?w=500&q=80",
+      "categoria": "Café",
+      "precio": 10,
+      "stock": 6
+    },
+    {
+      "id": 3,
+      "nombre": "Latte",
+      "imagen": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&q=80",
+      "categoria": "Café",
+      "precio": 11.5,
+      "stock": 9
+    },
+    {
+      "id": 4,
+      "nombre": "Mocaccino",
+      "imagen": "https://images.unsplash.com/photo-1607687325211-ac96773f9807?w=500&q=80",
+      "categoria": "Café",
+      "precio": 12.9,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "nombre": "Croissant",
+      "imagen": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
+      "categoria": "Postres",
+      "precio": 6.5,
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "nombre": "Cheesecake",
+      "imagen": "https://images.unsplash.com/photo-1524351199679-46cddf530c04?w=500&q=80",
+      "categoria": "Postres",
+      "precio": 13.5,
+      "stock": 4
+    }
+  ]
+}
