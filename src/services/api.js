@@ -1,5 +1,5 @@
 
-const API_URL = '/db.json';
+const API_URL = './db.json'; // Nota el punto antes de la barra: './'
 
 export const getProductos = async () => {
   try {
