@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nombre": "Café Americano",
-      "imagen": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Café",
       "precio": 7,
       "stock": 12
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "nombre": "Capuccino",
-      "imagen": "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Café",
       "precio": 10,
       "stock": 6
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "nombre": "Latte",
-      "imagen": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/1192027/pexels-photo-1192027.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Café",
       "precio": 11.5,
       "stock": 9
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "nombre": "Mocaccino",
-      "imagen": "https://images.unsplash.com/photo-1607687325211-ac96773f9807?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/1183660/pexels-photo-1183660.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Café",
       "precio": 12.9,
       "stock": 8
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "nombre": "Croissant",
-      "imagen": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/3892469/pexels-photo-3892469.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Postres",
       "precio": 6.5,
       "stock": 15
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "nombre": "Cheesecake",
-      "imagen": "https://images.unsplash.com/photo-1524351199679-46cddf530c04?w=500&q=80",
+      "imagen": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=500",
       "categoria": "Postres",
       "precio": 13.5,
       "stock": 4
