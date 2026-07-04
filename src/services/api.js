@@ -1,5 +1,5 @@
 
-const API_URL = './db.json'; // Nota el punto antes de la barra: './'
+const API_URL = '/db.json'; 
 
 export const getProductos = async () => {
   try {
@@ -8,7 +8,6 @@ export const getProductos = async () => {
       throw new Error('Error al obtener los productos de Café Aroma');
     }
     const data = await response.json();
-    // Como ahora lee el archivo completo, retornamos la propiedad .productos
     return data.productos || [];
   } catch (error) {
     console.error('Error en el servicio Fetch:', error);
