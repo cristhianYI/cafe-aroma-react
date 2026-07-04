@@ -1,13 +1,18 @@
 {
+  "version": 2,
   "cleanUrls": true,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/img/(.*)",
-      "destination": "/img/$1"
+      "src": "/img/(.*)",
+      "dest": "/img/$1"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/db.json",
+      "dest": "/db.json"
+    },
+    {
+      "src": "/[^.]*",
+      "dest": "/index.html"
     }
   ]
 }
