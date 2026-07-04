@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Café Americano",
+      "imagen": "/img/americano.jpg",
+      "categoria": "Café",
+      "precio": 7,
+      "stock": 12
+    },
+    {
+      "id": 2,
+      "nombre": "Capuccino",
+      "imagen": "/img/capuchino.jpg",
+      "categoria": "Café",
+      "precio": 10,
+      "stock": 6
+    },
+    {
+      "id": 3,
+      "nombre": "Latte",
+      "imagen": "/img/latte.jpg",
+      "categoria": "Café",
+      "precio": 11.5,
+      "stock": 9
+    },
+    {
+      "id": 4,
+      "nombre": "Mocaccino",
+      "imagen": "/img/mocaccino.jpg",
+      "categoria": "Café",
+      "precio": 12.9,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "nombre": "Croissant",
+      "imagen": "/img/croissant.jpg",
+      "categoria": "Postres",
+      "precio": 6.5,
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "nombre": "Cheesecake",
+      "imagen": "/img/cheesecake.jpg",
+      "categoria": "Postres",
+      "precio": 13.5,
+      "stock": 4
+    }
+  ]
+}
