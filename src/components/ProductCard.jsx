@@ -2,11 +2,16 @@ const ProductCard = ({ producto, onAgregar }) => {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-amber-100 flex flex-col">
       <div className="h-48 w-full overflow-hidden">
-        <img 
-          src={producto.imagen} 
-          alt={producto.nombre} 
-          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-        />
+         <img 
+              src={producto.imagen} 
+              alt={producto.nombre} 
+              referrerPolicy="no-referrer"
+              onError={(e) => {
+                // Si la imagen del JSON falla o es bloqueada, carga una de respaldo automática de Unsplash
+                e.target.src = `https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80`;
+              }}
+              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+         />
       </div>
       
       <div className="p-5 flex flex-col flex-grow">
