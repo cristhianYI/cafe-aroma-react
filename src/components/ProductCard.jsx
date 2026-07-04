@@ -2,16 +2,11 @@ const ProductCard = ({ producto, onAgregar }) => {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-amber-100 flex flex-col">
       <div className="h-48 w-full overflow-hidden">
-         <img 
-              src={producto.imagen} 
-              alt={producto.nombre} 
-              referrerPolicy="no-referrer"
-              onError={(e) => {
-                // Si la imagen del JSON falla o es bloqueada, carga una de respaldo automática de Unsplash
-                e.target.src = `https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80`;
-              }}
-              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-         />
+        <img 
+          src={producto.imagen} 
+          alt={producto.nombre} 
+          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+        />
       </div>
       
       <div className="p-5 flex flex-col flex-grow">
@@ -26,7 +21,6 @@ const ProductCard = ({ producto, onAgregar }) => {
         
         <div className="mt-auto flex justify-between items-center">
           <span className="text-2xl font-black text-amber-700">S/ {producto.precio.toFixed(2)}</span>
-          {/* Añadimos el evento onClick aquí */}
           <button 
             onClick={() => onAgregar(producto)}
             className="bg-amber-800 hover:bg-amber-900 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
